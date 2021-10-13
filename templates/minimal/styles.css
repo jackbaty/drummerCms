@@ -743,3 +743,21 @@ body {
 			opacity: .5;
 			}
 		}
+
+
+
+	/* My overrides (JAB, October 13, 2021) */
+
+	.divTitledItem {
+			margin-bottom: 25px;
+			padding-bottom: 10px;
+		}
+
+	.divTitledItem::after {
+	content: "";
+	display: block;
+	margin: auto;
+	width: 25%;
+	border-bottom: 1px solid #CCC;
+	padding-top: .5rem;
+}
